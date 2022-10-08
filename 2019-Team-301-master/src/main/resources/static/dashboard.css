@@ -1,0 +1,61 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+    background-color: #8da0b2;
+  
+}
+/* title */
+th {
+  /*font-family: "Blippo", fantasy;*/
+  font-style: italic;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+	color: white;
+	font-size:20px;
+}
+
+th, td{ border-left:10px solid #8da0b2; border-right: 10px solid #8da0b2;
+  width: 200px;
+}
+
+/*top of page*/
+.header{
+ margin: 20px; 
+  
+}
+/*outside border */
+table{
+
+  background-color: #4b5e70;
+  font-family: "DejaVu Sans Mono", monospace;
+  text-align: center;
+  color: white;
+  border: 10px solid #8da0b2;
+  table-layout: auto;
+  width: 700px;
+  margin:auto;
+
+}
+/*horizontal lines */
+tr{
+ border: 10px solid #8da0b2;
+  border-spacing: 0.5rem;
+    width: 200px;
+}
+form{ 
+    float: right;
+    width: 83%;
+    margin-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height:625px;
+    overflow:auto;
+}
+
+.buttons {
+    position:absolute;
+    bottom:100;
+    right:100;
+}

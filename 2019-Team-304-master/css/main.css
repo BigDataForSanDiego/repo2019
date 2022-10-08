@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.lf {
+  border-top: 1px solid black;
+}
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn btn-primary {
+  display: inline-block;
+  margin: 1em;
+  width: 33.33%;
+}  
+.btn-group {
+  position: relative;
+  display:inline-block;
+  vertical-align: middle;
+}
+.navbar navbar-inverse {
+  margin-top: 0;
+  border-radius: 0;
+}
+.centered {
+  position: absolute;
+  top: 61.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+.left {
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  }  
+.right {
+  right: 0;
+  background-color: rgba(167, 197, 243, 0.1);
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.btn-success {
+  height: 100%;
+  width: 100%;
+}
+#titlefood {
+  color: blue;
+}
+.logo {
+  width: 10%;
+  height: 10%;
+}

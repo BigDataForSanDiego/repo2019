@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Data App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <!--Here I create the top menu-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <img src="/img/logo.jpg" class="logo">
+            <h1 id="day"></h1>
+        </div>
+    </nav>
+
+    <!--This part creates the buttons found on the top, which add, delete, and change the food items. Password will be asked before any changes.-->
+    <div class="container-fluid">
+        <div role="group" class="btn-group" style="width:100%">
+            <button type="button" class="btn btn-primary btn-lg" style="width:33.3%">Change</button>
+            <button type="button" class="btn btn-primary btn-lg" style="width:33.3%">Add</button>
+            <button type="button" class="btn btn-primary btn-lg" style="width:33.3%">Delete</button>
+        </div>
+
+    <!--This part creates the two parts of the screen-->
+        <div class="split left">
+            <div class="centered">
+                <hr />
+                <button type="button" class="btn btn-success btn-lg" id="food1" onclick="myFood(0)"></button><hr />
+                <button type="button" class="btn btn-success btn-lg" id="food2" onclick="myFood(1)"></button><hr />
+                <button type="button" class="btn btn-success btn-lg" id="food3" onclick="myFood(2)"></button><hr />
+                <button type="button" class="btn btn-success btn-lg" id="food4" onclick="myFood(3)"></button><hr />
+                <button type="button" class="btn btn-success btn-lg" id="food5" onclick="myFood(4)"></button><hr/>
+                <!--extra<button type="button" class="btn btn-success btn-lg" id="food6"></button><hr />-->
+            </div>
+        </div>
+
+        <div class="split right">
+            <div class="centered">
+                <h3 id="student"></h3><hr class="lf"/>
+                <h3 id="titlefood">Food Items</h3>
+                <h4 id="itemAdd"></h4>
+                Quantity: <select id="selectBox" onchange="myQuant(value)">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br /><br />
+                Location: <select id="selectLocation" onchange="myLocation()">
+                    <option>Cafeteria</option>
+                    <option>Food Cart</option>
+                    <option>Concession Stand</option>
+                </select>
+                <p>--------------------------------------</p>
+                <h4 id="total"></h4>
+                    <button type="button" class="btn btn-danger btn-lg" onclick="myNext()">Continue &#8594;</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+</body>
+</html>
+

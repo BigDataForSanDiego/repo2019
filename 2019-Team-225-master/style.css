@@ -1,0 +1,7 @@
+.navbar-dark .navbar-nav > li > a {
+    color: #FBEFBF
+}
+.navbar-dark .navbar-nav > li > a:hover {
+    background-color: #FBEFBF;
+    color: #639EBE
+}

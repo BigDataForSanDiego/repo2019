@@ -1,0 +1,23 @@
+Unnamed: 0,12361.62903,,
+day_of_data,16,,
+day_of_week,4.193548387,,
+direction_of_travel,3,,
+month_of_data,1,,
+station_id,119100,volume,lux
+traffic_volume_counted_after_0000_to_0100,861.9193548,low,6
+traffic_volume_counted_after_0100_to_0200,611.0806452,low,6
+traffic_volume_counted_after_0200_to_0300,528.1935484,low,6
+traffic_volume_counted_after_0300_to_0400,588.3225806,low,6
+traffic_volume_counted_after_0400_to_0500,1113.693548,medium,8
+traffic_volume_counted_after_0500_to_0600,2837.903226,medium,8
+traffic_volume_counted_after_0600_to_0700,4269.580645,high,10
+traffic_volume_counted_after_1700_to_1800,5365.645161,high,10
+traffic_volume_counted_after_1800_to_1900,4301.693548,high,10
+traffic_volume_counted_after_1900_to_2000,3262.612903,high,10
+traffic_volume_counted_after_2000_to_2100,2690.322581,medium,6
+traffic_volume_counted_after_2100_to_2200,2426.951613,medium,6
+traffic_volume_counted_after_2200_to_2300,1900.225806,medium,6
+traffic_volume_counted_after_2300_to_2400,1291.5,medium,6
+year_of_data,15,,
+latitude,32.732428,,
+longitude,117.111704,,

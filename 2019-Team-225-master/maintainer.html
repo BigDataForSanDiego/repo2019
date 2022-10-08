@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark" style="background-color: #639ebe;">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                <img src="./iCan.png" width="74" height="26" alt="">
+              </a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active menuItem"><a href="#">Home</a></li>
+              <li class="menuItem"><a href="#">Data</a></li>
+              <li class="menuItem"><a href="#">Resources</a></li>
+              <li class="menuItem"><a href="#">Community</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container-fluid">
+          <div class="row">
+              <div id="googleMap" class="col-sm-4" style="left:25px;width:40%;height:400px;"></div>
+              <div class="col-sm-4"></div>
+          </div>
+        </div>
+        <script src="./mapscript.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBibhJM7Es-HagZaGesjhcQ2Xv9HN1r8QA&callback=myMap"></script>
+    </body>
+</html>

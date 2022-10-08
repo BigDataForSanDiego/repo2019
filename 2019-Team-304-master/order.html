@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Data App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <link rel="stylesheet" href="/css/order.css">
+</head>
+<body>
+    <!--Here I create the top menu-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <h1>Payment</h1>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <!--In here I will display the total, amount give, and amout due-->
+        <h4 id="total2"></h4>
+        <form id="myForm" action="/order.html" method="GET">
+            <h4 id="given">Given: </h4><input type="number" name="amtGiven" placeholder="Amount in dollars" id="amt" value="">
+            <button type="submit" class="btn btn-default" value="Submit" onclick="myGiven(myForm)">Process</button>
+        </form>
+        <p>-------------------------------------</p>
+        <h4 id="dueBack"></h4>
+
+        <!--In here I create all three button-->
+        <a href="/"><button type="button" class="btn btn-success btn-lg" >Go Back</button></a>
+        <button type="button" class="btn btn-danger btn-lg" onclick="myCancel()">Cancel Order</button>
+        <button type="button" class="btn btn-primary btn-lg" onclick="myFinish()">Finish</button>
+    </div>
+
+    <script src="/js/order.js"></script>
+      
+</body>
+</html>
